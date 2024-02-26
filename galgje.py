@@ -41,6 +41,7 @@ while True:
         print('je hebt het woord geraden')
         print('aantal keer geraden', aantal_keer_geraden)
         print('waarvan goed', aantal_keer_geraden - fouten)
+        break
     if lettergeraden1 == False and lettergeraden2 == True and lettergeraden3 == True:
         print('_',woord[1], woord[2])
     if lettergeraden1 == True and lettergeraden2 == False and lettergeraden3 == True:
